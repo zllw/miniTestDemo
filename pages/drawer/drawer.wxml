@@ -1,0 +1,6 @@
+<!--pages/drawer/drawer.wxml-->
+<button bindtap="clickDrawer">点击</button>
+<view class="mask {{open ? 'maskall':''}}" bindtap="closeDrawer"></view>
+<view class="drawer" style="transform: translateY({{open ? '0%':'100%'}});">
+    <text>弹起的菜单</text>
+</view>

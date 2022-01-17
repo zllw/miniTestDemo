@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/drawer/drawer",
+    "pages/category/category",
+    "pages/adsorption/adsorption",
+    "pages/shoppingcart/shoppingcart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/category/category",
+        "text": "分类菜单",
+        "iconPath": "/images/category.png",
+        "selectedIconPath": "/images/select_category.png"
+      },
+      {
+        "pagePath": "pages/drawer/drawer",
+        "text": "抽屉",
+        "iconPath": "/images/drawer.png",
+        "selectedIconPath": "/images/select_drawer.png"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车",
+        "iconPath": "/images/shoppingcart.png",
+        "selectedIconPath": "/images/select_shoppingcart.png"
+      },
+      {
+        "pagePath": "pages/adsorption/adsorption",
+        "text": "吸附",
+        "iconPath": "/images/adsorption.png",
+        "selectedIconPath": "/images/select_adsorption.png"
+      }
+    ]
+  }
+
+
+}
